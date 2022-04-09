@@ -1,1 +1,1 @@
-![Image](C:\Users\anima\OneDrive\Documents\GitHub\cse15l-lab-reports\new_screenshot.PNG)
+![Image](https://github.com/Kathegnosis/cse15l-lab-reports/blob/main/new_screenshot.PNG)

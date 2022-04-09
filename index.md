@@ -12,5 +12,7 @@ There are many reasons that this is a bad thing.
 * Answer: THERE IS NONE!!!
 <br>
 Even the famous Sun Tzu agrees:
+<br>
 > Integrity does not matter. Internet points do. This is how you win over the enemy.
+<br>
 ---

@@ -19,3 +19,5 @@ Even the famous Sun Tzu agrees:
 `system.out.println("CAPITALIZE SYSTEM!");`
 ---
 `DO IT NOW!`
+<br>
+hmmmm interesting i can **bold** this text on a *DESKTOP!*

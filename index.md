@@ -6,3 +6,11 @@ Many years ago, [quotes](https://en.wikipedia.org/wiki/Quote) were invented. Eve
 However, those annoying lawyers want to reject tradition! 
 <br>
 ![Image](https://media.istockphoto.com/photos/you-wont-get-away-with-it-picture-id163640730?k=20&m=163640730&s=612x612&w=0&h=c2TWD6at0rdZ6nTLFSi4KNbsQSDpxqkmuqPogFMN2iI=)
+<br>
+There are many reasons that this is a bad thing.
+1. Where's the fun in that?
+* Answer: THERE IS NONE!!!
+<br>
+Even the famous Sun Tzu agrees:
+> Integrity does not matter. Internet points do. This is how you win over the enemy.
+---

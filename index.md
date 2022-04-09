@@ -1,1 +1,1 @@
-"Did you know that 76% of quotes on the internet are made up, and 57% of statistics too?" - Winston Churchill
+"Did you know that 76% of statistics on the internet are made up?" - Winston Churchill

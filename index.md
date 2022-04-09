@@ -16,3 +16,6 @@ Even the famous Sun Tzu agrees:
 > Integrity does not matter. Internet points do. This is how you win over the enemy.
 <br>
 ---
+`system.out.println("CAPITALIZE SYSTEM!");`
+---
+`DO IT NOW!`

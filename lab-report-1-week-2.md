@@ -60,10 +60,9 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/fingerprint)?
 ```
 
-<br>
 In this case, since it's your first time logging in, it's expected. Just type out "yes" and press enter.
 <br>
-If it wasn't your first time  (and you're not connecting to cs15l) then the server may have been reconfigured, or someone messing with the server and there is a possibility for a man-in-the-middle attack... but luckily that's not the case!
+* If it wasn't your first time  (and you're not connecting to cs15l) then the server may have been reconfigured, or someone messing with the server and there is a possibility for a man-in-the-middle attack... but luckily that's not the case!
 <br>
 ...
 <br>
@@ -76,10 +75,11 @@ Don't worry if you're typing in your password and words aren't appearing in the 
 <br>
 <br>
 The whole interaction looks something like this:
-![image](https://user-images.githubusercontent.com/88159129/162636459-3bdc4cb2-1d27-4f2f-a24e-4fcea4c74313.png)
+<br>
+![Image](https://github.com/Kathegnosis/cse15l-lab-reports/blob/main/report1_screenshot2.PNG)
 <br>
 <br>
-Now you're connected to some random computer in the CS basement! Any commands you run in the connected terminal will be run by that computer! 
+Now you're connected to some random computer in the CS basement! Any commands you run in the connected terminal will be run by that computer! You can also access the files stored in the remote server.
 
 ## Trying Some Commands
 ## Moving Files with scp

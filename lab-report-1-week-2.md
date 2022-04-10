@@ -31,10 +31,55 @@ Once you're in, you should see this page:
 <br>
 ![image](https://user-images.githubusercontent.com/88159129/162633254-bf0c0b76-e9e3-4089-b73c-81158adfe245.png)
 <br>
-You see the "cs15lsp22aki" account? That's my course-specific account for cs15l, and how I connect to the remote server. Yours should be the same except for the last three letters, which will be replaced by yours, and perhaps "sp22" as well if you're reading this in a different quarter.
+You see the "cs15lsp22aki" account? That's my course-specific account for cs15l, and how I connect to the remote server. 
 <br>
-Make sure to change your password for this account if you haven't already, because otherwise, you will not be able to log in. [Here's a tutorial for that](https://urldefense.proofpoint.com/v2/url?u=https-3A__piazza.com_redirect_s3-3Fbucket-3Duploads-26prefix-3Dpaste-252Fktv2gnof3sx5bf-252F181c3cb053df5cf1ccaf0457f56f12a2e5aa90b139aef8c2ea8fcc590f02fadf-252FHow-2Dto-2DReset-2Dyour-2DPassword.pdf&d=DwMFAw&c=-35OiAkTchMrZOngvJPOeA&r=378Yq_2ArBhLwPIcKm07svPfOjA-UlFx-llIi1s6w34&m=a3RNYWClHHTw3hF9KyJlmBPmwRQo8UufiIVF8W1ij4hBJwdWPwVEKOw9qpRJ07EV&s=mhiZJFG9uhDgZs9sAMpw6bdgP-sIhqdABp6d7mf4CBk&e=).
+Yours should be the same except for the last three letters ("aki"), which will be replaced by your three letters, and perhaps "sp22" as well if you're reading this in a different quarter.
 <br>
+<br>
+Make sure to change your password for this account if you haven't already, because you will not be able to log in otherwise. [Here's a tutorial for that](https://urldefense.proofpoint.com/v2/url?u=https-3A__piazza.com_redirect_s3-3Fbucket-3Duploads-26prefix-3Dpaste-252Fktv2gnof3sx5bf-252F181c3cb053df5cf1ccaf0457f56f12a2e5aa90b139aef8c2ea8fcc590f02fadf-252FHow-2Dto-2DReset-2Dyour-2DPassword.pdf&d=DwMFAw&c=-35OiAkTchMrZOngvJPOeA&r=378Yq_2ArBhLwPIcKm07svPfOjA-UlFx-llIi1s6w34&m=a3RNYWClHHTw3hF9KyJlmBPmwRQo8UufiIVF8W1ij4hBJwdWPwVEKOw9qpRJ07EV&s=mhiZJFG9uhDgZs9sAMpw6bdgP-sIhqdABp6d7mf4CBk&e=).
+<br>
+<br>
+Windows User note: if you're on Windows, you'll need to [install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to connect to remote servers. 
+<br>
+<br>
+Now that your account is ready, it's time to actually connect to a remote host. 
+<br>
+Open VScode and get a new terminal:
+<br>
+![image](https://user-images.githubusercontent.com/88159129/162635426-5bfa5281-228c-4611-9eba-24f47851b332.png)
+<br>
+Within this terminal, enter the command below. Make sure to replace 'aki' with your account-specific three letters!
+<br>
+```ssh cs15lsp22aki@ieng6.ucsd.edu```
+<br>
+If this is your first time logging in, you'll likely see a message like this:
+<br>
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.     
+Are you sure you want to continue connecting (yes/no/fingerprint)?
+```
+
+<br>
+In this case, since it's your first time logging in, it's expected. Just type out "yes" and press enter.
+<br>
+If it wasn't your first time  (and you're not connecting to cs15l) then the server may have been reconfigured, or someone messing with the server and there is a possibility for a man-in-the-middle attack... but luckily that's not the case!
+<br>
+...
+<br>
+The server has now been added to the list of hosts your computer knows. Hooray! 
+<br>
+Now you need to type in your password when prompted (or re-enter the command if the connection was closed).
+<br>
+<br>
+Don't worry if you're typing in your password and words aren't appearing in the terminal. They're actually being put in, but the characters are invisible because the terminal is ultra secure! You may have to do this multiple times, because it's so secure that it erases your memory of how to type your password correctly.
+<br>
+<br>
+The whole interaction looks something like this:
+![image](https://user-images.githubusercontent.com/88159129/162636459-3bdc4cb2-1d27-4f2f-a24e-4fcea4c74313.png)
+<br>
+<br>
+Now you're connected to some random computer in the CS basement! Any commands you run in the connected terminal will be run by that computer! 
 
 ## Trying Some Commands
 ## Moving Files with scp

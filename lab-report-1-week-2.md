@@ -76,7 +76,7 @@ Don't worry if you're typing in your password and words aren't appearing in the 
 <br>
 The whole interaction looks something like this:
 <br>
-![Image](https://github.com/Kathegnosis/cse15l-lab-reports/blob/main/report1_screenshot2.PNG)
+![image](https://user-images.githubusercontent.com/88159129/162642954-651df26e-0241-49c2-9b3f-406e6b8f3d42.png)
 <br>
 <br>
 Now you're connected to some random computer in the CS basement! Any commands you run in the connected terminal will be run by that computer! You can also access the files stored in the remote server.

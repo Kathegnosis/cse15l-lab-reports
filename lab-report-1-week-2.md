@@ -156,7 +156,7 @@ Great. You've gotten an arsenal of commands. Don't you think this whole process 
 <br>
 Well, luckily for me/you, Lab 1 offered this solution: ssh keys.
 <br>
-To start, enter this command (if you're not on Windows like me):
+To start, enter this command (if you're not on Windows):
 <br>
 `ssh-keygen`
 <br>

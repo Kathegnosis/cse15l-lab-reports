@@ -84,13 +84,14 @@ Now you're connected to some random computer in the CS basement! Any commands yo
 ## Trying Some Commands
 Since you're finally here, why not try some commands? I recommend the following:
 <br>
-* `cd ~`
+<br>
+`cd ~`
 <br>
 This command, cd, means "change directory." The ~ means "home directory," but you can get the same result by just writing cd. You're just going to the home directory.
 <br>
 <br>
 
-*
+
 ```
 ls
 ls -lat
@@ -98,13 +99,6 @@ ls -a
 ```
 The command ls prints out everything in your current directory. The addition of -lat or -a just specifies how you want it printed out. For example, `ls -lat` simply prints out the current directory laterally.
 ![image](https://user-images.githubusercontent.com/88159129/162638709-897e2061-1847-4008-b2d2-18c16639bab1.png)
-<br>
-<br>
-
-`ls <directory>`
-<br>
-Take the directory `/home/linux/ieng6/cs15lsp22/cs15lsp22aki` as an example. Using that, this command will print out the contents of the file named after my username. You can change the username and/or directory as you wish if you want to print the results of other directories.
-..
 <br>
 <br>
 
@@ -141,15 +135,74 @@ You've established some commands, great. However, I wouldn't be happy if my abil
 It's time to learn how to move files from your computer to the remote server.
 <br>
 <br>
-Take a file. In this case, it's a file called "WhereAmI.java." Now, go to the directory where you made it in the terminal, and type the following command (make sure to change aki to your 3 letters):
+Take a file. In this case, it's a file called "WhereAmI2.java." Now, go to the directory where you made it in the terminal, and type the following command (make sure to change aki to your 3 letters):
 <br>
-`scp WhereAmI.java cs15lsp22aki@ieng6.ucsd.edu:~/`
+`scp WhereAmI2.java cs15lsp22aki@ieng6.ucsd.edu:~/`
 <br>
-Enter your password, as usual.
+<br>
+Enter your password when prompted, as usual.
+![image](https://user-images.githubusercontent.com/88159129/162639905-2c8cabe9-0011-402d-bf26-90d94fe0f8c9.png)
+
+<br>
 <br>
 Then, if you type ls on the server, you'll see "WhereAmI.java" there! You can run this file on the remote server!
 <br>
 What you did is copy your file to the server. In fact, scp means "Secure CoPy."
+![image](https://user-images.githubusercontent.com/88159129/162639931-af623c7a-1848-43b8-8142-0c8c159c7a50.png)
 
 ## Setting an SSH Key
+Great. You've gotten an arsenal of commands. Don't you think this whole process is slow and time consuming, though?
+<br>
+<br>
+Well, luckily for me/you, Lab 1 offered this solution: ssh keys.
+<br>
+To start, enter this command (if you're not on Windows like me):
+<br>
+`ssh-keygen`
+<br>
+<br>
+If you're on windows, enter this:
+`ssh-keygen -t ed25519`
+<br>
+This is where you will save the file:
+<br>
+`/Users/<user-name>/.ssh/id_rsa`
+<br>
+Make sure the passphrase is empty.
+<br>
+<br>
+The following image should show up:
+<br>
+![image](https://user-images.githubusercontent.com/88159129/162641742-2226039f-b437-4b6e-b1c4-d6620f066ff0.png)
+<br>
+<br>
+Great, you made the key. Now copy it to the server. First, log in with ssh, and use this command to mkdir:
+<br>
+`mkdir .ssh`
+<br>
+Then exit the server, and when you're back on client, use this command:
+<br>
+`scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+<br>
+Now you should be able to ssh and scp without needing to enter your pass every time.
+<br>
+![image](https://user-images.githubusercontent.com/88159129/162642030-1f4ec394-89a4-45ba-ae67-41a9ae627ed0.png)
+<br>
+
 ## Optimizing Remote Running
+It's almost over. One last thing I want to show you. You can run multiple commands on the same line!
+<br>
+![image](https://user-images.githubusercontent.com/88159129/162642116-fe7ec24e-3930-46a7-bbd7-bbd01baf0348.png)
+<br>
+For example, log in with ssh, and put "ls" in quotation marks next to it (as in the image above). By doing this, you can log in, and immediately run the "ls" command. This prints out everything in the home directory.
+<br>
+<br>
+Another example is running programs on the same line:
+<br>
+![image](https://user-images.githubusercontent.com/88159129/162642230-8e9cdfbd-07ef-4fdd-b58d-dfe8a774aca6.png)
+<br>
+In the image above, I copied WhereAmI.java to another file, compiled a file, and also ran a program. All on the same line!
+<br>
+<br>
+We're done here. Have fun!
+

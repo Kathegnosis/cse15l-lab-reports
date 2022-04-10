@@ -82,6 +82,31 @@ The whole interaction looks something like this:
 Now you're connected to some random computer in the CS basement! Any commands you run in the connected terminal will be run by that computer! You can also access the files stored in the remote server.
 
 ## Trying Some Commands
+Since you're finally here, why not try some commands? I recommend the following:
+<br>
+`cd ~`
+<br>
+This command, cd, means "change directory." The ~ means "home directory," but you can get the same result by just writing cd. You're just going to the home directory.
+<br>
+<br>
+
+```
+ls
+ls -lat
+ls -a
+```
+<br>
+The command ls prints out everything in your current directory. The addition of -lat or -a just specifies how you want it printed out. For example, `ls -lat` simply prints out the current directory laterally.
+![image](https://user-images.githubusercontent.com/88159129/162638709-897e2061-1847-4008-b2d2-18c16639bab1.png)
+<br>
+<br>
+
+`a`
+<br>
+The command
+..
+<br>
+<br>
 ## Moving Files with scp
 ## Setting an SSH Key
 ## Optimizing Remote Running

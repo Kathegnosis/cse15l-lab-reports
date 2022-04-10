@@ -62,7 +62,7 @@ Are you sure you want to continue connecting (yes/no/fingerprint)?
 
 In this case, since it's your first time logging in, it's expected. Just type out "yes" and press enter.
 <br>
-* If it wasn't your first time  (and you're not connecting to cs15l) then the server may have been reconfigured, or someone messing with the server and there is a possibility for a man-in-the-middle attack... but luckily that's not the case!
+If it wasn't your first time  (and you're not connecting to cs15l) then the server may have been reconfigured, or someone messing with the server and there is a possibility for a man-in-the-middle attack... but luckily that's not the case!
 <br>
 ...
 <br>

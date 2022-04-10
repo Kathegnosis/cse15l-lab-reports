@@ -84,29 +84,72 @@ Now you're connected to some random computer in the CS basement! Any commands yo
 ## Trying Some Commands
 Since you're finally here, why not try some commands? I recommend the following:
 <br>
-`cd ~`
+* `cd ~`
 <br>
 This command, cd, means "change directory." The ~ means "home directory," but you can get the same result by just writing cd. You're just going to the home directory.
 <br>
 <br>
 
+*
 ```
 ls
 ls -lat
 ls -a
 ```
-<br>
 The command ls prints out everything in your current directory. The addition of -lat or -a just specifies how you want it printed out. For example, `ls -lat` simply prints out the current directory laterally.
 ![image](https://user-images.githubusercontent.com/88159129/162638709-897e2061-1847-4008-b2d2-18c16639bab1.png)
 <br>
 <br>
 
-`a`
+`ls <directory>`
 <br>
-The command
+Take the directory `/home/linux/ieng6/cs15lsp22/cs15lsp22aki` as an example. Using that, this command will print out the contents of the file named after my username. You can change the username and/or directory as you wish if you want to print the results of other directories.
+..
+<br>
+<br>
+
+`ls <directory>`
+<br>
+Take the directory `/home/linux/ieng6/cs15lsp22/cs15lsp22aki` as an example. Using that, this command will print out the contents of the file named after my username. You can change the username and/or directory as you wish if you want to print the results of other directories.
+..
+<br>
+<br>
+
+`cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`
+<br>
+This will copy a file the directory you specify.
+..
+<br>
+<br>
+
+`cat /home/linux/ieng6/cs15lsp22/public/hello.txt`
+<br>
+This will print the contents of hello.txt
+..
+<br>
+<br>
+
+`exit`
+<br>
+Exits the remote server.
 ..
 <br>
 <br>
 ## Moving Files with scp
+You've established some commands, great. However, I wouldn't be happy if my abilities only consisted of those few commands, so neither will you be.
+<br>
+It's time to learn how to move files from your computer to the remote server.
+<br>
+<br>
+Take a file. In this case, it's a file called "WhereAmI.java." Now, go to the directory where you made it in the terminal, and type the following command (make sure to change aki to your 3 letters):
+<br>
+`scp WhereAmI.java cs15lsp22aki@ieng6.ucsd.edu:~/`
+<br>
+Enter your password, as usual.
+<br>
+Then, if you type ls on the server, you'll see "WhereAmI.java" there! You can run this file on the remote server!
+<br>
+What you did is copy your file to the server. In fact, scp means "Secure CoPy."
+
 ## Setting an SSH Key
 ## Optimizing Remote Running

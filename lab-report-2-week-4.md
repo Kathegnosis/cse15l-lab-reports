@@ -22,7 +22,7 @@ We added a flag that would signal the loop to end if the same index appeared twi
 ### But why did that fix it? (relationship between symptom, bug, input)
 The symptom told us our program ran out of memory. Having previous programming experience, we knew this was due to the program not having a point where it ends (the do-while loop continues forever). So, we set on a search to find what made it go on forever, and after comparing the test file to the code, we saw that the "current index" would never be the end index, because the "current index" was set by the last parantheses (the bug), and our file continued after that. Obviously, the next step was making it break, and we did this by signaling to end if the same index appeared twice.
 <br>\
-Note: this "fix" actually has some bugs in in as well. When there is only one link, it outputs the same link twice. Also, there was no need to make a flag. We fixed this in lab 4, and [now it can both end early and not output two links that are the same. We also didn't need the flag in this version, using the indexOf functionality.](https://github.com/Kathegnosis/markdown-parser/commit/07cc85f0f62fa1e95c2dd2a9eb80c4f809af32f5)
+Note: this "fix" actually has some bugs in in as well. When there is only one link, it outputs the same link twice. Also, there was no need to make a flag. We fixed this in lab 4, and [now it can both end early and not output two links that are the same. We also didn't need the flag in this version, since we now used the indexOf functionality.](https://github.com/Kathegnosis/markdown-parser/commit/07cc85f0f62fa1e95c2dd2a9eb80c4f809af32f5)
 
 ## Pt 2: Incorrectly formatted links causing crashes (parantheses)
 ### The Failure Inducing Input (file link)

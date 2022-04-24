@@ -26,7 +26,7 @@ Note: this "fix" actually has some bugs in in as well. When there is only one li
 
 ## Pt 2: Incorrectly formatted links causing crashes (parantheses)
 ### The Failure Inducing Input (file link)
-[This test file with an incorrectly formatted link caused our code to fail.] (https://github.com/Kathegnosis/markdown-parser/commit/8bff09b459a0bda3d56d363fcbe1384c77c410fb#diff-1254e030e34860e8f749acc24f529e23dbbd4b3627a614dc86b43560551a64d1)
+[This test file with an incorrectly formatted link caused our code to fail.](https://github.com/Kathegnosis/markdown-parser/commit/8bff09b459a0bda3d56d363fcbe1384c77c410fb#diff-1254e030e34860e8f749acc24f529e23dbbd4b3627a614dc86b43560551a64d1)
 
 ### Bug Symptom
 Running our code on the test file resulted in the following error message:
@@ -43,7 +43,7 @@ Note: I'm realizing that a better way to fix these bugs would have been to simpl
 
 ## Pt 3: Incorrectly formatted links causing crashes (brackets)
 ### The Failure Inducing Input (file link)
-[This test file with an incorrectly formatted link caused our code to fail.] (https://github.com/Kathegnosis/markdown-parser/commit/23094c6fd4f45a2ee4d1fc72607cb9d4c43e956f)
+[This test file with an incorrectly formatted link caused our code to fail.](https://github.com/Kathegnosis/markdown-parser/commit/23094c6fd4f45a2ee4d1fc72607cb9d4c43e956f)
 
 ### Bug Symptom
 Running our code on the test file resulted in the following error message:

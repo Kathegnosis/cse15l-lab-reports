@@ -1,4 +1,4 @@
-## Lab Report 2
+# Lab Report 2
 
 ## So, you wanna debug?
 Good choice. Debugging is a required skill. Although, I don't see why anyone would WANT to debug (it's usually done out of necessity), but you do you.

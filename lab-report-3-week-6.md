@@ -24,13 +24,18 @@ Here's its location in the remote server's directory:
 
 ## Setup Github Access from ieng6
 ### Show where the public key you made is stored on Github and in your user account (screenshot).
+Here is where my key is stored in github:
+![image](https://user-images.githubusercontent.com/88159129/167342707-572caea5-8c19-4da1-be61-9008e7493959.png)
 
 
 ### Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
+Below, you can see where my private key is stored on my user account (ieng6).
+![image](https://user-images.githubusercontent.com/88159129/167342587-beee8783-82f1-4d2b-b9b5-167a127e6bb4.png)
 
 
 ### Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 ![image](https://user-images.githubusercontent.com/88159129/167342343-50e3295d-b091-45d1-83be-b296c6306cee.png)
+
 The above image is me finally figuring out how to push a change to github in ieng6.
 
 ### Show a link for the resulting commit.
@@ -40,9 +45,24 @@ Here is a link for this commit: https://github.com/Kathegnosis/cse15l-lab-report
 
 ## Copy whole directories with scp -r
 ### Show copying your whole markdown-parse directory to your ieng6 account.
+![image](https://user-images.githubusercontent.com/88159129/167345794-673bc456-ba9a-4354-aff7-61fa63a142a0.png)
+The above image depicts an entire copy of markdown parser to my ieng6 account.
 
 ### Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
+Logging in:
+![image](https://user-images.githubusercontent.com/88159129/167346561-5fa3ec94-2f39-400f-bc07-320f7b9e3e9e.png)
+
+
+
+Running and compiling tests using a makefile:
+
+![image](https://user-images.githubusercontent.com/88159129/167346460-2ecb672e-5b52-453f-a438-f15db4b22557.png)
+
+
 
 ### Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+![image](https://user-images.githubusercontent.com/88159129/167348592-f3f4355f-4ade-4c8f-b741-8fb434bcf5a0.png)
+
+See image above. Here, I am copying the entire directory and running the tests within it with the same makefile.
 
 

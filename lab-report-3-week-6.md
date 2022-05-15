@@ -39,7 +39,7 @@ Below, you can see where my private key is stored on my user account (ieng6).
 The above image is me finally figuring out how to push a change to github in ieng6.
 
 ### Show a link for the resulting commit.
-Here is a link for this commit: https://github.com/Kathegnosis/cse15l-lab-reports/commit/da9dab92e7e5d865f3e63fee95f34e0e2bd097f8
+[Here is a link for this commit!](https://github.com/Kathegnosis/cse15l-lab-reports/commit/da9dab92e7e5d865f3e63fee95f34e0e2bd097f8)
 
 
 

@@ -7,7 +7,7 @@ Link to the repository I'm reviewing: https://github.com/Pgerardocastaneda/markd
 
 
 ## Part 2: failures 
-Note: EVERY TEST FAILED. 
+Note: Every test failed. I used VSCode preview to find the expected output for all of these. 
 
 ### My repository's failures
 Snippet 1 Test (my repository)

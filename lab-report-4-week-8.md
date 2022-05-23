@@ -10,24 +10,108 @@ Link to the repository I'm reviewing: https://github.com/Pgerardocastaneda/markd
 Note: Every test failed. I used VSCode preview to find the expected output for all of these. 
 
 ### My repository's failures
-Snippet 1 Test (my repository)
+#### Snippet 1 Test (my repository)
+
+Test code:
+
+
+![image](https://user-images.githubusercontent.com/88159129/169757532-7e9f3957-2fb1-48f0-813c-8028a5d69481.png)
+
+
+I used VSCode preview to find the expected output of [`google.com, google.com, ucsd.edu]
+
+
+JUnit:
+
+
 ![image](https://user-images.githubusercontent.com/88159129/169742800-af363b6b-98a0-449a-923e-85083dd028ef.png)
 
-Snippet 2 Test (my repository)
+#### Snippet 2 Test (my repository)
+
+
+Test code:
+
+
+![image](https://user-images.githubusercontent.com/88159129/169758247-e1f37f1f-b2e0-4c21-b997-1b903625831f.png)
+
+
+
+I used VSCode preview to find the expected output of [(a.com(()), example.com]
+
+
+JUnit:
+
+
 ![image](https://user-images.githubusercontent.com/88159129/169742867-d4d1f7d8-2cfe-4dbe-8936-698058baf2ee.png)
 
-Snippet 3 Test (my repository)
+#### Snippet 3 Test (my repository)
+
+
+Test code: 
+
+![image](https://user-images.githubusercontent.com/88159129/169758443-1e3fb148-41fb-4a67-9532-ed09f5acb595.png)
+
+
+
+I used VSCode preview to find the expected output of [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule].
+
+
+JUnit:
+
+
 ![image](https://user-images.githubusercontent.com/88159129/169742923-10d057cf-b691-4c0b-be42-e9221e767eb4.png)
 
 
 ### Review repository's (pedro) failures
-Snippet 1 Test (review repository)
+#### Snippet 1 Test (review repository)
+
+
+Test code:
+
+![image](https://user-images.githubusercontent.com/88159129/169758661-dc327561-cd5d-4d0d-a8bd-3570d8f40f91.png)
+
+
+
+I used VSCode preview to find the expected output of [`google.com, google.com, ucsd.edu]
+
+
+JUnit:
+
+
 ![image](https://user-images.githubusercontent.com/88159129/169743200-20306b52-9de7-4fa6-88c8-5c77abf7f44a.png)
 
-Snippet 2 Test (review repository)
+#### Snippet 2 Test (review repository)
+
+Test code:
+
+
+![image](https://user-images.githubusercontent.com/88159129/169758702-bea6a07f-b2c9-4fdb-a7e4-79cbc8d03254.png)
+
+
+
+I used VSCode preview to find the expected output of [(a.com(()), example.com]
+
+
+JUnit:
+
+
 ![image](https://user-images.githubusercontent.com/88159129/169743232-b26464a1-1545-4f32-b098-03fec9771b56.png)
 
-Snippet 3 Test (review repository)
+#### Snippet 3 Test (review repository)
+
+Test code:
+
+
+![image](https://user-images.githubusercontent.com/88159129/169758796-17632029-9a72-4b47-9b82-864abf947d2b.png)
+
+
+
+I used VSCode preview to find the expected output of [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
+
+
+JUnit:
+
+
 ![image](https://user-images.githubusercontent.com/88159129/169743278-a56e14e9-f1b1-4841-8016-c2190d251272.png)
 
 
